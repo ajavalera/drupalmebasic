@@ -1,0 +1,46 @@
+name = Base Project Distro
+description = Basic all - in - one distribution for general purpose Drupal sites.
+core = 7.x
+distribution_name = "Base Project Distro"
+exclusive = TRUE
+
+; Install required core modules.
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = taxonomy
+
+; Install required contributed modules.
+dependencies[] = admin_menu
+dependencies[] = entity
+dependencies[] = ctools
+dependencies[] = blockgroup
+dependencies[] = pathauto
+dependencies[] = features
+dependencies[] = fe_block
+dependencies[] = nodequeue
+dependencies[] = fe_nodequeue
+dependencies[] = fe_profile
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = uuid
+dependencies[] = uuid_features
+dependencies[] = views
+dependencies[] = coder
+dependencies[] = devel
+dependencies[] = devel_generate
+
+; Basic project specific modules (features).
+dependencies[] = bp_global_configuration
