@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the BP Global Configuration feature.
- */
-
-include_once 'bp_global_configuration.features.inc';
