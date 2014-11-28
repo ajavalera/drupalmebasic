@@ -38,9 +38,12 @@ dependencies[] = token
 dependencies[] = uuid
 dependencies[] = uuid_features
 dependencies[] = views
+dependencies[] = views_ui
 dependencies[] = coder
 dependencies[] = devel
 dependencies[] = devel_generate
+dependencies[] = wysiwyg
 
 ; Basic project specific modules (features).
 dependencies[] = bp_global_configuration
+dependencies[] = bp_content_types

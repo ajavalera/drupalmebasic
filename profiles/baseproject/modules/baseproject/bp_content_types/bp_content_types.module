@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the BP Content types feature.
+ */
+
+include_once 'bp_content_types.features.inc';
