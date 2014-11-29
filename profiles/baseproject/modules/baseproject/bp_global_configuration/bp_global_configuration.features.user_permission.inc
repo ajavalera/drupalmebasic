@@ -213,6 +213,13 @@ function bp_global_configuration_user_default_permissions() {
     'module' => 'views',
   );
 
+  // Exported permission: 'create url aliases'.
+  $permissions['create url aliases'] = array(
+    'name' => 'create url aliases',
+    'roles' => array(),
+    'module' => 'path',
+  );
+
   // Exported permission: 'display drupal links'.
   $permissions['display drupal links'] = array(
     'name' => 'display drupal links',
