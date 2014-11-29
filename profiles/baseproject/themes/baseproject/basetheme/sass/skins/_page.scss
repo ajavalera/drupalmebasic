@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 28, 2014, 3:16:36 PM
+    Author     : ajavalera
+*/
+
+body {
+  background: linear-gradient($skin-background-color-top, 
+                              $skin-background-color-middle-1 ,
+                              $skin-background-color-middle-2 ,
+                              $skin-background-color-bottom);
+  background-repeat: no-repeat;
+}
+
+p,t,div,span,td,tr,label,form {
+  background-image: none;
+}
+
+#page {
+  background-color: $skin-page-background-color;
+  border-radius: $skin-all-boxes-radious;
+}
+
+h1,h2,h3 {
+  font-size : $skin-page-title-size;
+  color: $skin-page-title-color;
+}
+
+h2 {
+  font-size: $skin-page-title-size * 0.8;
+}
+
+h3 {
+  font-size: $skin-page-title-size * 0.6;
+}
+
+h1 a:link,h1 a:visited,h1 a:hover,
+h2 a:link,h2 a:visited,h2 a:hover,
+h3 a:link,h3 a:visited,h3 a:hover {
+  text-decoration: none;
+  color: $skin-page-title-color;
+}
+
+/* Edit tabs visible for node editors */
+ul.tabs-primary, ul.tabs , ul.primary {
+  font-size: $skin-page-edit-tabs-size;
+}
+
+/* Comments wrapper */
+section.comments {
+  padding: 10px;
+  background: linear-gradient($skin-page-blocks-background-color-top,
+                              $skin-page-blocks-background-color-middle-1,
+                              $skin-page-blocks-background-color-middle-2,
+                              $skin-page-blocks-background-color-bottom);
+  border-radius: 15px;
+}

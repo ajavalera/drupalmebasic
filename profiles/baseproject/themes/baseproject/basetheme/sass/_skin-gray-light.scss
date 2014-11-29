@@ -1,0 +1,58 @@
+/**
+ * Skin variable definition.
+ * 
+ * You can create several skins with different colors and fonts by copying
+ * the contents of this file into another sass file, changing its values 
+ * and importing it in styles.scss.
+ *
+ */
+
+/** 
+ * Sets the gradient for the background. For no gradient, 
+ * set these to the same value.
+ */
+$skin-background-color-top : #999;
+$skin-background-color-middle-1 : #ddd;
+$skin-background-color-middle-2 : #fff;
+$skin-background-color-bottom : #fff;
+
+/* Sets the radious for all the boxes corners, including header. */
+$skin-all-boxes-radious: 8px;
+
+/* Background for the content area. No gradient here, are you kidding me?? */
+$skin-page-background-color: #fff;
+
+/** 
+ * Sets the gradient for the boxes. For no gradient, 
+ * set these to the same value.
+ */
+$skin-page-blocks-background-color-top: #bbb;
+$skin-page-blocks-background-color-middle-1: #fff;
+$skin-page-blocks-background-color-middle-2: #fff;
+$skin-page-blocks-background-color-bottom: #bbb;
+
+$skin-page-title-color: #444;
+
+/**
+ * This is the maximun size for all the h tags (h1). 
+ * The h2 and h3 tags sizes are calculated with this value.
+ */
+$skin-page-title-size: 23pt;
+
+/* The View - Edit - Devel tabs size. */
+$skin-page-edit-tabs-size: 13px;
+
+/* Header and inner elements */
+$skin-header-background-color: #000;
+$skin-header-title-color: #ddd;
+$skin-header-link-color: #ddd;
+$skin-header-link-hover-color: #fff;
+
+/**
+ * Importing the skins sass files. 
+ * All skins need implement this at the bottom 
+ * of their files.
+ */
+@import "init.scss";
+@import "skins/page" ;
+@import "skins/header" ;

@@ -1,17 +1,18 @@
-/**
- * @file
- * RTL companion for the styles.css file.
- */
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 28, 2014, 3:16:36 PM
+    Author     : ajavalera
+*/
+/* line 13, ../sass/skins/green-dark/page.scss */
+body {
+  background-color: #99AD99;
+}
 
-/* HTML element (SMACSS base) rules */
-@import "normalize-rtl.css";
-
-/* Layout rules */
-@import "layouts/responsive-rtl.css";
-
-/* Component (SMACSS module) rules */
-@import "components/misc-rtl.css";
-
-/* SMACSS theme rules */
-/* @import "theme-A-rtl.css"; */
-/* @import "theme-B-rtl.css"; */
+/* line 17, ../sass/skins/green-dark/page.scss */
+#page {
+  background-color: #99AD99;
+}
