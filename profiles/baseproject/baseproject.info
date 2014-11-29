@@ -47,3 +47,4 @@ dependencies[] = wysiwyg
 ; Basic project specific modules (features).
 dependencies[] = bp_global_configuration
 dependencies[] = bp_content_types
+dependencies[] = bp_content_management
