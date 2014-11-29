@@ -2,7 +2,7 @@ name = Base Project Distro
 description = Basic all - in - one distribution for general purpose Drupal sites.
 core = 7.x
 distribution_name = "Base Project Distro"
-exclusive = TRUE
+exclusive = FALSE
 
 ; Install required core modules.
 dependencies[] = block
@@ -43,6 +43,11 @@ dependencies[] = coder
 dependencies[] = devel
 dependencies[] = devel_generate
 dependencies[] = wysiwyg
+dependencies[] = node_export
+dependencies[] = feeds
+dependencies[] = feeds_import
+dependencies[] = feeds_ui
+dependencies[] = ds
 
 ; Basic project specific modules (features).
 dependencies[] = bp_global_configuration
