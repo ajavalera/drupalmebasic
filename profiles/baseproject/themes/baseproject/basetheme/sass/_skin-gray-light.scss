@@ -1,11 +1,14 @@
-/**
+/*
  * Skin variable definition.
  * 
  * You can create several skins with different colors and fonts by copying
  * the contents of this file into another sass file, changing its values 
  * and importing it in styles.scss.
- *
- */
+*/
+/* 
+    Created on : Nov 28, 2014, 6:49:46 PM
+    Author     : ajavalera
+*/
 
 /** 
  * Sets the gradient for the background. For no gradient, 
@@ -48,6 +51,13 @@ $skin-header-title-color: #ddd;
 $skin-header-link-color: #ddd;
 $skin-header-link-hover-color: #fff;
 
+/*
+  Configuration for the admin menu.
+ */
+$skin-admin-menu-font-size: 16px;
+$skin-admin-menu-background-color: #444;
+$skin-admin-menu-font-color: #ddd;
+
 /**
  * Importing the skins sass files. 
  * All skins need implement this at the bottom 
@@ -56,3 +66,4 @@ $skin-header-link-hover-color: #fff;
 @import "init.scss";
 @import "skins/page" ;
 @import "skins/header" ;
+@import "skins/admin-menu" ;

@@ -1792,14 +1792,17 @@ tr.selected td {
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
-/**
+/*
  * Skin variable definition.
  * 
  * You can create several skins with different colors and fonts by copying
  * the contents of this file into another sass file, changing its values 
  * and importing it in styles.scss.
- *
- */
+*/
+/* 
+    Created on : Nov 28, 2014, 6:49:46 PM
+    Author     : ajavalera
+*/
 /** 
  * Sets the gradient for the background. For no gradient, 
  * set these to the same value.
@@ -1816,6 +1819,9 @@ tr.selected td {
  */
 /* The View - Edit - Devel tabs size. */
 /* Header and inner elements */
+/*
+  Configuration for the admin menu.
+ */
 /**
  * Importing the skins sass files. 
  * All skins need implement this at the bottom 
@@ -1930,4 +1936,21 @@ and open the template in the editor.
 /* line 39, ../sass/skins/_header.scss */
 #header #secondary-menu a:hover {
   color: white;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 28, 2014, 6:49:46 PM
+    Author     : ajavalera
+*/
+/* line 12, ../sass/skins/_admin-menu.scss */
+#admin-menu,
+#admin-menu a {
+  font-size: 16px;
+  background: none;
+  background-color: #444444;
 }
